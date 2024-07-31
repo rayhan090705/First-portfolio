@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style Bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Animate  -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <title>Bootstrap demo</title>
+
+
+    <style>
+
+      .mt-ni {
+        margin-top: -3px;
+      }
+
+      .source-code-pro {
+        font-family: "Source Code Pro", monospace;
+        letter-spacing: 2px;
+      }
+
+      .banner {
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+      }
+      .banner-content {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+      }
+
+      .img {
+        width: 510px;
+        height: 510px;
+      }
+
+      .img-card {
+        width:100%;
+        height: 16rem;
+      }
+
+      .ms-sklil {
+        margin-left: 2.1em;
+      }
+      
+
+      @media screen and (max-width:500px) {
+        .img {
+          width: 420px;
+          height: 420px;
+        }
+      
+      }
+
+
+      @media screen and (min-width:768px) {
+        .img {
+          width: 550px;
+          height: 550px;
+        }
+        .img-card {
+        width:  20.5rem;
+        height: 16rem;
+      }
+        .me-card {
+        margin-right: 0.25rem;
+      }
+
+      }
+
+      @media screen and (min-width:992px) {
+        .me-card {
+        margin-right: 7rem;
+      }
+      }
+
+      @media screen and (min-width:1200px) {
+        .img {
+          width: 600px;
+          height: 600px;
+        }
+        .me-card {
+        margin-right: 3rem;
+      }
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg mt-3 mb-5 ">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">RM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rasume">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Banner -->
+    <div class="container-fulid banner mt-5 " id="home">
+      <div class="container banner-content col-12 d-flex justify-content-center flex-column flex-lg-row " >
+        <div class=" col-12 col-lg-6 text-center text-xl-start mb-5">
+          <h6 class=" ms-4 source-code-pro">My Name Is</h6>
+          <h2 class="mt-ni ">
+            <span class="fw-bold" >Muhamad</span>
+            <span class="fw-bold" style="color: blueviolet;">Rayhan</span>
+          </h2>
+          <p>I'm a front-end web developer student.
+  
+            and continue to always develop my skills</p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="img/hero.svg" class="img" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Service -->
+    <div class="container-fluid py-5 mt-5 " id="service">
+      <div class="container ">
+        <h6 class="text-center source-code-pro opacity-75">SERVICE</h6>
+        <h2 class="text-center fw-bold">Specialized In</h2>
+        <div class="mx-auto mt-5">
+          <div class="container col-12 d-lg-flex" >
+            <div class="col-lg-4 col-12 text-center">
+              <i class="bi bi-amd" style="background-color: rgb(231, 231, 255);"></i>
+              <h6 class="fw-semibold py-3">UI/UX</h6>
+              <p>Turn what you have in mind of a digital product into reality.For any platfrom you consider.</p>
+            </div>
+            <div class=" col-lg-4 col-12 text-center">
+              <i class="bi bi-archive-fill " style="background-color: rgb(231, 231, 255);"></i>
+              <h6 class="fw-semibold py-3">Application Development</h6>
+              <p>Standard Designing,building,and implementing your applications with documentation.</p>
+            </div>
+            <div class="col-lg-4 col-12 text-center">
+              <i class="bi bi-apple" style="background-color: rgb(231, 231, 255);"></i>
+              <h6 class="fw-semibold py-3">Web Development</h6>
+              <p>Create and maintain your websites and also take care of its perfomance and traffic capacity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Of Service -->
+
+    <!-- My Work -->
+     <div class="container-fluid mt-5" id="portfolio" >
+      <div class="container" >
+        <h6 class=" source-code-pro opacity-75">My Works</h6>
+        <h2 class="fw-bold">Featured Portfolios</h2>
+
+        <div class="container mt-5 col-12 d-inline-block text-center text-md-start">
+
+          <div class="card col-12 col-md-6 col-xl-4 mb-3  d-inline-block me-card " style="width: 20.5rem;">
+            <img src="img/portfolio-1.png" class="card-img-top img-card" alt="...">
+            <div class="card-header d-flex justify-content-between">
+              <h5 class="card-title d-inline-block">Agency Website</h5>
+              <i class="bi bi-box-arrow-up-right"></i>
+            </div>
+            <div class="card-body">
+              <h6 class="fw-medium d-inline-block pe-4 opacity-75">React</h6>
+              <h6 class="fw-medium d-inline-block opacity-75">Talwind</h6>
+              <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="card col-12 col-md-6 col-xl-4 mb-3 d-inline-block me-card " style="width: 20.5rem;">
+            <img src="img/portfolio-4.png" class="card-img-top img-card" alt="...">
+            <div class="card-header d-flex justify-content-between">
+              <h5 class="card-title d-inline-block">Landing Page</h5>
+              <i class="bi bi-box-arrow-up-right"></i>
+            </div>
+            <div class="card-body">
+              <h6 class="fw-medium d-inline-block pe-4 opacity-75">Vue</h6>
+              <h6 class="fw-medium d-inline-block opacity-75">Contentful</h6>
+              <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="card col-12 col-md-6 col-xl-4 mb-3 d-inline-block" style="width: 20.5rem;">
+            <img src="img/portfolio-5.jpg" class="card-img-top img-card" alt="...">
+            <div class="card-header d-flex justify-content-between">
+              <h5 class="card-title d-inline-block">Dashbord Admin</h5>
+              <i class="bi bi-box-arrow-up-right"></i>
+            </div>
+            <div class="card-body">
+              <h6 class="fw-medium d-inline-block pe-4 opacity-75">React</h6>
+              <h6 class="fw-medium d-inline-block opacity-75">Materialize</h6>
+              <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    <!-- End My Work -->
+
+    <!-- Skills & Education -->
+     <div class="container-fluid mt-5" id="skills">
+      <div class="container ">
+        <h6 class=" source-code-pro opacity-75">LEARNING PATH</h6>
+        <h2 class="fw-bold">Skills & Education</h2>
+        <div class="container mt-5 col-12 d-md-flex">
+          <ul class="list-group col-12 col-md-6 text-center text-md-start ">
+
+            <ul class="list-group mb-5 ">
+              <li class="list-group-item border border-0 border-start border-1 "><h6 class="fw-bold"> Kingston University</h6></li>
+              <li class="list-group-item border border-0 border-start border-1 opacity-75"><p>Master's Degree-Software Engineering</p></li>
+              <li class="list-group-item border border-0 border-start border-1"><h6 class="fw-bold"> 2019-2023</h6></li>
+            </ul>
+
+            <ul class="list-group mb-5">
+              <li class="list-group-item border border-0 border-start border-1"><h6 class="fw-bold"> Kingston University</h6></li>
+              <li class="list-group-item border border-0 border-start border-1 opacity-75"><p>Master's Degree-Software Engineering</p></li>
+              <li class="list-group-item border border-0 border-start border-1"><h6 class="fw-bold"> 2019-2023</h6></li>
+            </ul>
+
+            <ul class="list-group mb-5">
+              <li class="list-group-item border border-0 border-start border-1"><h6 class="fw-bold"> Kingston University</h6></li>
+              <li class="list-group-item border border-0 border-start border-1 opacity-75"><p>Master's Degree-Software Engineering</p></li>
+              <li class="list-group-item border border-0 border-start border-1"><h6 class="fw-bold"> 2019-2023</h6></li>
+            </ul>
+
+          </ul>
+
+          <ul class="list-group col-12 col-md-6">
+           
+            <ul class="mb-5">
+             <li class="list-group-item border border-0 opacity-75">For 5+ years, I have been continouusly learning the field of front-end and expermenting with new technologies and frameworks, and here you can see a summry of my skills. Field of front-end Exprimenting</li>
+            </ul>
+
+            <div class="container d-flex justify-content-between">
+              <ul class="ms-sklil ">
+                <li class="border border-0 opacity-75 mb-4">React Js</li>
+                <li class="border border-0 opacity-75 mb-4">Node Js</li>
+                <li class="border border-0 opacity-75 mb-4">MongoDB</li>
+                <li class="border border-0 opacity-75 mb-4">HTML</li>
+                <li class="border border-0 opacity-75">Vue Js</li>
+              </ul>
+  
+              <ul class="ms-sklil">
+                <li class="border border-0 opacity-75 mb-4">React Js</li>
+                <li class="border border-0 opacity-75 mb-4">Node Js</li>
+                <li class="border border-0 opacity-75 mb-4">MongoDB</li>
+                <li class="border border-0 opacity-75 mb-4">HTML</li>
+                <li class="border border-0 opacity-75">Vue Js</li>
+              </ul>
+            </div>
+
+
+          </ul>
+        </div>
+      </div>
+     </div>
+
+     <!-- Contact  -->
+      <div class="container-fluid" id="contact">
+        <div class="container">
+          <h6 class=" source-code-pro opacity-75 text-center">Contact</h6>
+          <h2 class="fw-bold text-center">Contact Me Here</h2>
+          <div class="container col-12 d-lg-flex">
+
+            <!-- Form-->
+            <div class="container col-12 col-lg-6 mt-5">
+              <h4 class="source-code-pro opacity-75 mb-5">Form</h4>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label fw-bold">Masukan Nama </label>
+                <input type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="nama"></input>
+              </div>
+              
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label fw-bold">Masukan Email </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label fw-bold">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
+              </div>
+
+              <div class="">
+                <button class="btn btn-primary text-center w-100">Send Message</button>
+              </div>
+
+            </div>
+
+            <!-- Info -->
+            <div class="container col-12 col-lg-6 mt-5 ms-5">
+              <h4 class="source-code-pro opacity-75  mb-5">Info</h4>
+              <div class="mb-5">
+                <i class="bi bi-pin-map d-inline-block fs-1 text-primary" ></i>
+                  <div class="d-inline-block ms-3">
+                    <h6 class="semibold" >Address</h6>
+                    <p class="opacity-75">3424 Layanan averue fayerde NC</p>
+                  </div>
+              </div>
+
+              <div class="mb-5">
+                <i class="bi bi-envelope d-inline-block fs-1 text-primary" ></i>
+                  <div class="d-inline-block ms-3">
+                    <h6 class="semibold" >Email</h6>
+                    <p class="opacity-75">m.rayhanoi@gmail.com</p>
+                  </div>
+              </div>
+
+              <div class="mb-5">
+                <i class="bi bi-telephone d-inline-block fs-1 text-primary" ></i>
+                  <div class="d-inline-block ms-3">
+                    <h6 class="semibold" >Phone</h6>
+                    <p class="opacity-75">(501) 414-1541</p>
+                  </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+     <!-- End Contact  -->
+ 
+      <!-- Footer -->
+      <div class="container-fluid " id="rasume" style="margin-top: 100px;">
+        <div class="container ">
+          <div class="text-center mb-2">
+            <i class="bi bi-instagram fs-5 me-3 "></i>
+            <i class="bi bi-linkedin fs-5 me-3 "></i>
+            <i class="bi bi-twitter-x fs-5 me-3 "></i>
+            <i class="bi bi-github fs-5 me-3 "></i>
+          </div>
+          <div class="text-center mb-4">
+            <p> &copy;2024-Made by Night Coder</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
