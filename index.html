@@ -39,17 +39,14 @@
         background-position: center;
       }
       .banner-content {
-        height: 100%;
+        height: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 150px;
       }
 
-      .img {
-        width: 510px;
-        height: 510px;
-      }
+     
 
       .img-card {
         width:100%;
@@ -59,6 +56,8 @@
       .ms-sklil {
         margin-left: 0em;
       }
+
+      
       
 
       @media screen and (max-width:500px) {
@@ -66,14 +65,48 @@
           width: 330px;
           height: 330px;
         }
+
+        .fs-me-nav {
+        font-size: 1.5rem;
+      }
+
+      .fs-me-all {
+        font-size: 1.5rem;
+      }
+      
+      }
+
+      @media screen and (min-width:500px) {
+         .img {
+        width: 390px;
+        height: 390px;
+      }
+
+      .fs-me-nav {
+        font-size: 1.4rem;
+      }
+
+      .fs-me-all {
+        font-size: 1.4rem;
+      }
+      
+      
       
       }
 
 
       @media screen and (min-width:768px) {
+      .fs-me-nav {
+        font-size: 1.3rem;
+      }
+
+      .fs-me-all {
+        font-size: 1.3rem;
+      }
+
         .img {
-          width: 550px;
-          height: 550px;
+          width: 450px;
+          height: 450px;
         }
         .img-card {
         width:  20.5rem;
@@ -93,6 +126,14 @@
         .me-card {
         margin-right: 7rem;
       }
+      .fs-me-nav {
+        font-size: 1rem;
+      }
+
+      .fs-me-all {
+        font-size: 1rem;
+      }
+
       }
 
       @media screen and (min-width:1200px) {
@@ -110,7 +151,7 @@
   <body>
 
     <!-- Navbar -->
-    <div class="container-fluid mt-3 mb-5">
+    <div class="container-fluid mt-3 mb-5 fs-me-nav">
       <nav class="navbar navbar-expand-lg  ">
         <div class="container">
           <a class="navbar-brand fw-bold" href="#">M <span style="color: blueviolet;">R</span></a>
@@ -142,9 +183,9 @@
     <!-- Akhir Navbar -->
 
     <!-- Banner -->
-    <div class="container-fulid banner mt-5 mb-5" id="home">
-      <div class="container banner-content col-12 d-flex justify-content-center flex-column flex-lg-row " >
-        <div class=" col-12 col-lg-6 text-center text-xl-start mb-5">
+    <div class="container-fulid banner mt-5 mb-5 fs-me-all" id="home">
+      <div class="container banner-content col-12 d-flex flex-column flex-lg-row " >
+        <div class=" col-12 col-lg-6 text-center text-xl-start mt-5">
           <h6 class=" ms-4 source-code-pro">My Name Is</h6>
           <h2 class="mt-ni ">
             <span class="fw-bold" >Muhamad</span>
@@ -154,7 +195,7 @@
   
             and continue to always develop my skills</p>
         </div>
-        <div class="col-12 col-lg-6 text-center">
+        <div class="col-12 col-lg-6 text-center mb-4 ">
           <img src="img/hero.svg" class="img" alt="">
         </div>
       </div>
@@ -162,7 +203,7 @@
     <!-- End Banner -->
 
     <!-- Service -->
-    <div class="container-fluid py-5 mt-5 " id="service">
+    <div class="container-fluid py-5 mt-5 fs-me-all" id="service">
       <div class="container ">
         <h6 class="text-center source-code-pro opacity-75">SERVICE</h6>
         <h2 class="text-center fw-bold">Specialized In</h2>
@@ -190,7 +231,7 @@
     <!-- End Of Service -->
 
     <!-- My Work -->
-     <div class="container-fluid mt-5 g-0" id="portfolio" >
+     <div class="container-fluid mt-5 g-0 fs-me-all" id="portfolio" >
       <div class="container g-0" >
         <h6 class=" source-code-pro opacity-75 ms-3 ">My Works</h6>
         <h2 class="fw-bold ms-3">Featured Portfolios</h2>
@@ -241,7 +282,7 @@
     <!-- End My Work -->
 
     <!-- Skills & Education -->
-     <div class="container-fluid mt-5" id="skills">
+     <div class="container-fluid mt-5 fs-me-all" id="skills">
       <div class="container ">
         <h6 class=" source-code-pro opacity-75">LEARNING PATH</h6>
         <h2 class="fw-bold">Skills & Education</h2>
@@ -299,7 +340,7 @@
      </div>
 
      <!-- Contact  -->
-      <div class="container-fluid mt-5" id="contact">
+      <div class="container-fluid mt-5 fs-me-all" id="contact">
         <div class="container">
           <h6 class=" source-code-pro opacity-75 text-center">Contact</h6>
           <h2 class="fw-bold text-center">Contact Me Here</h2>
@@ -308,17 +349,17 @@
             <!-- Form-->
             <div class="container col-12 col-lg-6 mt-5">
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label fw-bold">Masukan Nama </label>
+                <label for="exampleFormControlTextarea1" class="form-label fw-lg-semibold ">Masukan Nama </label>
                 <input type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="nama"></input>
               </div>
               
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label fw-bold">Masukan Email </label>
+                <label for="exampleFormControlInput1" class="form-label fw-lg-semibold">Masukan Email </label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
               </div>
 
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label fw-bold">Message</label>
+                <label for="exampleFormControlTextarea1" class="form-label fw-lg-semibold">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
               </div>
 
@@ -362,7 +403,7 @@
      <!-- End Contact  -->
  
       <!-- Footer -->
-      <div class="container-fluid " id="rasume" style="margin-top: 200px;">
+      <div class="container-fluid fs-me-all " id="rasume" style="margin-top: 200px;">
         <div class="container ">
           <div class="text-center mb-2">
             <i class="bi bi-instagram fs-5 me-3 "></i>
